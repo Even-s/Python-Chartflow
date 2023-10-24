@@ -1,0 +1,16 @@
+n = int(input("請輸入一個非負整數 (最大到5): "))
+if n == 0:
+    result = 1
+elif n == 1:
+    result = 1
+elif n == 2:
+    result = 1 * 2
+elif n == 3:
+    result = 1 * 2 * 3
+elif n == 4:
+    result = 1 * 2 * 3 * 4
+elif n == 5:
+    result = 1 * 2 * 3 * 4 * 5
+else:
+    result = "輸入超出範圍"
+print(f"{n}! = {result}")
